@@ -39,6 +39,6 @@ multiple_Input_Prompt = PromptTemplate(input_variables=["language", "topic"],tem
 
 formatted_Multiple_InputPrompt = multiple_Input_Prompt.format(language = "c++", topic = "function")
 print (formatted_Multiple_InputPrompt)
-# respone = llm.invoke(formatted_Multiple_InputPrompt)
-# print(respone)
+respone = llm.invoke(formatted_Multiple_InputPrompt)
+print(respone)
 
